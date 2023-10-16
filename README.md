@@ -16,7 +16,10 @@ All important models are available [here](https://drive.google.com/file/d/1oAjm4
 
 These are nnUNetv1 models that have been exported to zip files using the `nnUNet_export_model_to_zip` command. To use them, all you have run is `nnUNet_install_pretrained_model_from_zip`, and you will be able to run any of the models. 
 
-We provide the baseline model for Post-treatment Glioma Segmentation.
+We provide 3 models for the UCSF-ALPTDG dataset as benchmarks.
+- **UCSF_PostTreatmentGliomaSegModel**: Model that takes inputs as (1) FLAIR (2) T1 (3) T2 and (4) T1CE MR images. `['flair','t1','t2','t1ce']`
+- **UCSF_FLAIRChangeSegModel**: Model that takes input as the (1) FLAIR image in Timepoint 1 (2) FLAIR image in Timepoint 2 and (3) FLAIR subtraction image (t2-t1). `['time1_flair','time2_flair','flair_subtraction']`
+- **UCSF_FLAIRChangeSegModel**: Model that takes input as the (1) T1CE image in Timepoint 1 (2) T1CE image in Timepoint 2 and (3) T1CE subtraction image (t2-t1). `['time1_t1ce','time2_t1ce','t1ce_subtraction']`
 
 We also provide 2 skull stripping models for FLAIR and T1Post skullstripping respectively. 
 
