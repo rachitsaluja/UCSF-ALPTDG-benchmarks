@@ -1,5 +1,5 @@
-# UCSF-LPTDG-benchmarks
-The official nnUNet benchmarks for The University of California San Francisco Longitudinal Post-Treatment Diffuse Glioma (UCSF-LPTDG) dataset.
+# UCSF-ALPTDG-benchmarks
+The official nnUNet benchmarks for The University of California San Francisco Adult Longitudinal Post-Treatment Diffuse Glioma (UCSF-ALPTDG) dataset.
 
 
 ## Requirements - 
@@ -12,7 +12,7 @@ Please look at the notebooks folder to conduct your own experminets using nnUNet
 
 ## Pre-trained Models -
 
-All important models are available [here](https://drive.google.com/file/d/1SSnABQkQ-77O_M7qpIKpiSVv2VCxr6oN) for download. 
+All important models are available [here](https://drive.google.com/file/d/1oAjm4FPG8gSkjRl1cRD8zDtPhd0_x8JT/) for download. 
 
 These are nnUNetv1 models that have been exported to zip files using the `nnUNet_export_model_to_zip` command. To use them, all you have run is `nnUNet_install_pretrained_model_from_zip`, and you will be able to run any of the models. 
 
