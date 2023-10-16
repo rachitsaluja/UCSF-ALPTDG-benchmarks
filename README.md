@@ -27,6 +27,24 @@ Following are the performance metrics for all the experiments performed in this 
 
 ![Performance Metrics for nnUNet Segmentation Models](extras/benchmarks_performance.png)
 
+## Citation - 
+
+If you have used this work in your project, considering citing this research paper. 
+
+```
+@article{rudie2022longitudinal,
+  title={Longitudinal Assessment of Posttreatment Diffuse Glioma Tissue Volumes with Three-dimensional Convolutional Neural Networks},
+  author={Rudie, Jeffrey D and Calabrese, Evan and Saluja, Rachit and Weiss, David and Colby, John B and Cha, Soonmee and Hess, Christopher P and Rauschecker, Andreas M and Sugrue, Leo P and Villanueva-Meyer, Javier E},
+  journal={Radiology: Artificial Intelligence},
+  volume={4},
+  number={5},
+  pages={e210243},
+  year={2022},
+  publisher={Radiological Society of North America}
+}
+
+```
+
 ## Usage - 
 
 Data and models cannot be used for commerical use. 
